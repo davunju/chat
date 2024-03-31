@@ -679,6 +679,14 @@ video {
   width: 60%;
 }
 
+.w-8\/12 {
+  width: 66.666667%;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -703,6 +711,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -713,6 +725,14 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .rounded-2xl {
@@ -931,12 +951,8 @@ video {
     display: none;
   }
 
-  .mobile\:h-\[50lvh\] {
-    height: 50lvh;
-  }
-
-  .mobile\:h-\[80lvh\] {
-    height: 80lvh;
+  .mobile\:h-\[60\%\] {
+    height: 60%;
   }
 
   .mobile\:w-10\/12 {
