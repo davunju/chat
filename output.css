@@ -562,20 +562,12 @@ video {
   position: relative;
 }
 
-.-left-14 {
-  left: -3.5rem;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
 
-.left-\[20\%\] {
-  left: 20%;
-}
-
-.left-\[55\%\] {
-  left: 55%;
+.left-0 {
+  left: 0px;
 }
 
 .right-0 {
@@ -584,14 +576,6 @@ video {
 
 .top-0 {
   top: 0px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.top-10 {
-  top: 2.5rem;
 }
 
 .z-10 {
@@ -631,10 +615,6 @@ video {
   display: flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .size-14 {
   width: 3.5rem;
   height: 3.5rem;
@@ -663,36 +643,32 @@ video {
   height: 100lvh;
 }
 
-.h-\[85vh\] {
-  height: 85vh;
-}
-
-.h-\[90vh\] {
-  height: 90vh;
-}
-
-.h-\[90lvh\] {
-  height: 90lvh;
-}
-
 .h-\[80lvh\] {
   height: 80lvh;
+}
+
+.h-\[85vh\] {
+  height: 85vh;
 }
 
 .w-1\/2 {
   width: 50%;
 }
 
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
 .w-\[15\%\] {
   width: 15%;
 }
 
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-\[380px\] {
-  width: 380px;
+.w-\[25\%\] {
+  width: 25%;
 }
 
 .w-\[450px\] {
@@ -701,38 +677,6 @@ video {
 
 .w-\[60\%\] {
   width: 60%;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-9\/12 {
-  width: 75%;
-}
-
-.w-8\/12 {
-  width: 66.666667%;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
-}
-
-.w-\[25\%\] {
-  width: 25%;
-}
-
-.w-56 {
-  width: 14rem;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
 }
 
 .flex-col {
@@ -802,16 +746,6 @@ video {
   border-top-right-radius: 1rem;
 }
 
-.rounded-b-3xl {
-  border-bottom-right-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-}
-
-.rounded-b-\[80\%\] {
-  border-bottom-right-radius: 80%;
-  border-bottom-left-radius: 80%;
-}
-
 .rounded-bl-lg {
   border-bottom-left-radius: 0.5rem;
 }
@@ -826,22 +760,6 @@ video {
 
 .rounded-tl-full {
   border-top-left-radius: 9999px;
-}
-
-.rounded-br-full {
-  border-bottom-right-radius: 9999px;
-}
-
-.rounded-bl-3xl {
-  border-bottom-left-radius: 1.5rem;
-}
-
-.rounded-br-\[90\%\] {
-  border-bottom-right-radius: 90%;
-}
-
-.rounded-bl-full {
-  border-bottom-left-radius: 9999px;
 }
 
 .border {
@@ -918,10 +836,6 @@ video {
   padding: 1rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -947,29 +861,12 @@ video {
   line-height: 1rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-relaxed {
-  line-height: 1.625;
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-desaturatedDarkViolet {
@@ -1002,10 +899,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.opacity-40 {
-  opacity: 0.4;
-}
-
 .opacity-35 {
   opacity: 0.35;
 }
@@ -1025,22 +918,6 @@ video {
     position: absolute;
   }
 
-  .mobile\:relative {
-    position: relative;
-  }
-
-  .mobile\:left-0 {
-    left: 0px;
-  }
-
-  .mobile\:top-14 {
-    top: 3.5rem;
-  }
-
-  .mobile\:top-1\/3 {
-    top: 33.333333%;
-  }
-
   .mobile\:top-\[10\%\] {
     top: 10%;
   }
@@ -1048,10 +925,6 @@ video {
   .mobile\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .mobile\:mt-10 {
-    margin-top: 2.5rem;
   }
 
   .mobile\:hidden {
@@ -1062,36 +935,8 @@ video {
     height: 50lvh;
   }
 
-  .mobile\:h-\[50\%\] {
-    height: 50%;
-  }
-
-  .mobile\:w-\[150px\] {
-    width: 150px;
-  }
-
-  .mobile\:w-\[330px\] {
-    width: 330px;
-  }
-
-  .mobile\:w-\[90\%\] {
-    width: 90%;
-  }
-
-  .mobile\:w-\[60\%\] {
-    width: 60%;
-  }
-
-  .mobile\:w-1\/2 {
-    width: 50%;
-  }
-
-  .mobile\:w-8\/12 {
-    width: 66.666667%;
-  }
-
-  .mobile\:w-9\/12 {
-    width: 75%;
+  .mobile\:h-\[80lvh\] {
+    height: 80lvh;
   }
 
   .mobile\:w-10\/12 {
@@ -1100,10 +945,6 @@ video {
 
   .mobile\:w-\[50\%\] {
     width: 50%;
-  }
-
-  .mobile\:w-\[95\%\] {
-    width: 95%;
   }
 
   .mobile\:w-\[80\%\] {
@@ -1118,10 +959,6 @@ video {
     flex-direction: column;
   }
 
-  .mobile\:gap-10 {
-    gap: 2.5rem;
-  }
-
   .mobile\:gap-12 {
     gap: 3rem;
   }
@@ -1134,14 +971,6 @@ video {
     border-bottom-right-radius: 9999px;
   }
 
-  .mobile\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .mobile\:p-5 {
-    padding: 1.25rem;
-  }
-
   .mobile\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -1149,20 +978,5 @@ video {
 
   .mobile\:text-center {
     text-align: center;
-  }
-
-  .mobile\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .mobile\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .mobile\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 }
