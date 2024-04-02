@@ -7,7 +7,7 @@ module.exports = {
         rubik: '"Rubik", sans-serif',
       },
       screens: {
-        mobile: { max: "800px" },
+        mobile: { max: "600px" },
       },
       colors: {
         paleViolet: "hsl(276, 100%, 81%)",
